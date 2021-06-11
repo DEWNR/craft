@@ -1,0 +1,82 @@
+field: 8cd0bce8-3671-4772-9479-7c23c0d5948c # Image gallery
+fieldLayouts:
+  e6af6c5f-12df-479e-9db5-db733ea48b3e:
+    tabs:
+      -
+        elements:
+          -
+            fieldUid: 0d472893-b66c-40a7-a531-bc0e60a96698 # Image
+            instructions: null
+            label: null
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+          -
+            fieldUid: be620118-87d7-4c11-9738-cd4dfc99cf1c # Caption
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: Content
+        sortOrder: 1
+fields:
+  0d472893-b66c-40a7-a531-bc0e60a96698: # Image
+    contentColumnType: string
+    fieldGroup: null
+    handle: image
+    instructions: ''
+    name: Image
+    searchable: false
+    settings:
+      allowSelfRelations: false
+      allowUploads: true
+      allowedKinds:
+        - image
+      defaultUploadLocationSource: 'volume:007cf408-5171-4608-bb10-37e9d01c33e7' # Shared documents
+      defaultUploadLocationSubpath: ''
+      limit: ''
+      localizeRelations: false
+      previewMode: full
+      restrictFiles: '1'
+      selectionLabel: 'Add an image'
+      showSiteMenu: true
+      showUnpermittedFiles: false
+      showUnpermittedVolumes: false
+      singleUploadLocationSource: 'volume:37e0968a-18b5-4f97-b792-d34a431b19fd' # Shared images
+      singleUploadLocationSubpath: image-gallery/
+      source: null
+      sources: '*'
+      targetSiteId: null
+      useSingleFolder: true
+      validateRelatedElements: false
+      viewMode: list
+    translationKeyFormat: null
+    translationMethod: site
+    type: craft\fields\Assets
+  be620118-87d7-4c11-9738-cd4dfc99cf1c: # Caption
+    contentColumnType: text
+    fieldGroup: null
+    handle: caption
+    instructions: ''
+    name: Caption
+    searchable: false
+    settings:
+      byteLimit: null
+      charLimit: null
+      code: ''
+      columnType: null
+      initialRows: '4'
+      multiline: ''
+      placeholder: null
+      uiMode: normal
+    translationKeyFormat: null
+    translationMethod: none
+    type: craft\fields\PlainText
+handle: image
+name: Image
+sortOrder: 1

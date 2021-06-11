@@ -1,21 +1,21 @@
 childBlocks: ''
-field: fa112548-c36b-46b2-901a-839be3825ce8 # Content builder
+field: 8cd0bce8-3671-4772-9479-7c23c0d5948c # Image gallery
 fieldLayouts:
-  71d0976d-064e-452e-b433-04fdf2585b09:
+  c138d949-bbd9-4657-a30f-ab0c969bc2d3:
     tabs:
       -
         elements:
           -
-            fieldUid: 6cbd429a-eb7f-435a-a392-ac75de54825e # Block title
+            fieldUid: c1fbbe64-a078-4af6-9266-3321a7dc4724 # Image
             instructions: ''
-            label: Heading
-            required: false
+            label: ''
+            required: '1'
             tip: null
             type: craft\fieldlayoutelements\CustomField
             warning: null
             width: 100
           -
-            fieldUid: d6588c8f-8fbb-4942-bc54-baf1b82001da # Form
+            fieldUid: 112c70eb-196d-49cf-8c69-cb6cd11432ac # Caption
             instructions: null
             label: null
             required: false
@@ -25,10 +25,10 @@ fieldLayouts:
             width: 100
         name: Main
         sortOrder: 1
-handle: form
+handle: imageItem
 maxBlocks: 0
 maxChildBlocks: 0
 maxSiblingBlocks: 0
-name: Form
-sortOrder: 5
+name: Image
+sortOrder: 1
 topLevel: true

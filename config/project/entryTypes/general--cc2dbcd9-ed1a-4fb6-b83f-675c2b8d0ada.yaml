@@ -49,6 +49,19 @@ fieldLayouts:
       -
         elements:
           -
+            fieldUid: 8cd0bce8-3671-4772-9479-7c23c0d5948c # Image gallery
+            instructions: null
+            label: null
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            warning: null
+            width: 100
+        name: 'Image gallery'
+        sortOrder: 2
+      -
+        elements:
+          -
             fieldUid: 116eadab-13c0-402d-ae59-d4f76c4a88a3 # Sidebar options
             instructions: null
             label: null
@@ -127,7 +140,7 @@ fieldLayouts:
             warning: null
             width: 100
         name: Settings
-        sortOrder: 2
+        sortOrder: 3
 handle: general
 hasTitleField: true
 name: General

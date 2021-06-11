@@ -1,4 +1,4 @@
-dateModified: 1623037430
+dateModified: 1623393173
 email:
   fromEmail: dew.internet@sa.gov.au
   fromName: 'Craft Bot 🤖 '
@@ -44,7 +44,7 @@ plugins:
   freeform:
     edition: pro
     enabled: true
-    licenseKey: K2X2NDMCVJ84XIGX3PVDPY93
+    licenseKey: $PLUGIN_FREEFORM_LICENSE
     schemaVersion: 3.3.1
     settings:
       ajaxByDefault: true
@@ -123,7 +123,7 @@ plugins:
   image-optimize:
     edition: standard
     enabled: true
-    licenseKey: 98VD4QK7Z71771L8U1NE7WVO
+    licenseKey: $PLUGIN_IMAGEOPTIMIZE_LICENSE
     schemaVersion: 1.0.0
     settings:
       allowUpScaledImageVariants: false
@@ -195,7 +195,7 @@ plugins:
   neo:
     edition: standard
     enabled: true
-    licenseKey: OAL9GD6HGCZSLCZGB3V1DA1Y
+    licenseKey: $PLUGIN_NEO_LICENSE
     schemaVersion: 2.9.11
   publisher:
     edition: standard
@@ -212,13 +212,13 @@ plugins:
   retour:
     edition: standard
     enabled: true
-    licenseKey: KUH6PJFJKHHVLO280GSIAUF8
+    licenseKey: $PLUGIN_RETOUR_LICENSE
     schemaVersion: 3.0.9
   seomatic:
     edition: standard
     enabled: true
-    licenseKey: ZPLAAH9FG7R6D3CT6YSIHSKW
-    schemaVersion: 3.0.9
+    licenseKey: $PLUGIN_SEOMATIC_LICENSE
+    schemaVersion: 3.0.10
     settings:
       addHrefLang: true
       addPaginatedHreflang: true

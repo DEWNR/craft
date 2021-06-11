@@ -1,0 +1,16 @@
+contentColumnType: string
+fieldGroup: c070a16a-3c83-4536-ad01-e4a85fade10d # Assets
+handle: imageGallery
+instructions: ''
+name: 'Image gallery'
+searchable: false
+settings:
+  maxBlocks: ''
+  maxLevels: ''
+  maxTopBlocks: ''
+  minBlocks: ''
+  propagationMethod: all
+  wasModified: false
+translationKeyFormat: null
+translationMethod: site
+type: benf\neo\Field
