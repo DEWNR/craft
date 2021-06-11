@@ -9,7 +9,7 @@ settings:
   allowUploads: true
   allowedKinds:
     - image
-  defaultUploadLocationSource: 'volume:007cf408-5171-4608-bb10-37e9d01c33e7' # Shared documents
+  defaultUploadLocationSource: 'volume:37e0968a-18b5-4f97-b792-d34a431b19fd' # Shared images
   defaultUploadLocationSubpath: ''
   limit: '1'
   localizeRelations: false
