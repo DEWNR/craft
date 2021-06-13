@@ -31,6 +31,10 @@
 				</ul>
 			{% endif %}
 
+			{% if entry.imageGallery is not null %}
+			  {% include "_partials/image-gallery" %}
+			{% endif %}
+
 			{% if entry.sidebarOptions.contains('location') %}
 				{% set location = site.location %}
 				<div class="border-primary border-b">

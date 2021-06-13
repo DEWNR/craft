@@ -1,0 +1,16 @@
+{% set gallery = entry.imageGallery.all() %}
+
+<div class="gallery">
+	{% for block in gallery %}
+		{% set image = block.image.one() %}
+		{% set optimizedImages = image.optimizedGeneral ?? null %}
+		{% if optimizedImages %}
+			<a href="{{ image.url }}" class="glightbox {{ loop.index0 > 0 ? 'hidden' : 'show' }}" data-title="{{ block.caption }}" data-type="image">
+				<picture>
+					<source srcset="{{ optimizedImages.srcsetWebP() }}" sizes="100vw" type="image/webp"/>
+					<img src="{{ optimizedImages.src() }}" srcset="{{ optimizedImages.srcset() }}" sizes="100vw" class="object-cover" alt="{{ block.caption }}" />
+				</picture>
+			</a>
+		{% endif %}
+	{% endfor %}
+</div>

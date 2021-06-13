@@ -32,6 +32,14 @@ const main = async () => {
       }
     );
   }
+
+  if (document.querySelector('.gallery')) {
+    import('./modules/gallery' /* webpackChunkName: "gallery" */).then(
+      (instance) => {
+        instance.initGallery('.gallery');
+      }
+    );
+  }
 };
 
 main().then(() => {});
